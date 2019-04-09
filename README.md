@@ -18,21 +18,13 @@ Others used libraries can be seen in [captcha-break.ipynb](https://github.com/iz
 ### Image Processing
 Images dataset can be found in [Medium](http://bit.ly/break-captcha).
 
-1. Original  
+Original                    |  Thresholding                |  Morphological Transformations   | Contours
+:--------------------------:|:----------------------------:|:--------------------------------:|:-----------------------------:
+![original](/images/01.png) | ![original](/images/02.png)  | ![original](/images/03.png)      | ![original](/images/04.png)
 
-![original](/images/01.png)
-
-2. [Image Thresholding](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html)
-
-![original](/images/02.png)
-
-3. [Morphological Transformations](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html)
-
-![original](/images/03.png)
-
-4. Finding letters with [Contours](https://docs.opencv.org/3.3.1/d4/d73/tutorial_py_contours_begin.html) in **findLetters** function
-
-![original](/images/04.png)
+* [Image Thresholding](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_thresholding/py_thresholding.html)  
+* [Morphological Transformations](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html)   
+* Finding letters with [Contours](https://docs.opencv.org/3.3.1/d4/d73/tutorial_py_contours_begin.html) in **findLetters()** function
 
 ### Machine Learning
 The letters were saved in folders inside **data_letters** with their IDs for train and test convolutional neural network
@@ -42,9 +34,11 @@ The letters were saved in folders inside **data_letters** with their IDs for tra
 
 ### Finally, let's test!
 
-<img src="/images/06.png" width="300">
 
-<img src="/images/07.png" width="300">
+ZWBJ                        | CGLT            
+:--------------------------:|:----------------------------:
+![teste1](/images/06.png)   | ![teste2](/images/07.png)  
+
 
 ## License
 
